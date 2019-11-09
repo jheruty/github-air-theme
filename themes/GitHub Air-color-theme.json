@@ -1,0 +1,218 @@
+{
+	"name": "GitHub Air",
+	"type": "light",
+	"colors": {
+		"activityBar.background": "#24292e",
+		"activityBar.foreground": "#fafbfc",
+		"activityBarBadge.background": "#54a3ff",
+		"editor.background": "#ffffff",
+		"editor.foreground": "#24292e",
+		"editor.lineHighlightBackground": "#fffbdd",
+		"editorBracketMatch.background": "#f1f8ff",
+		"editorBracketMatch.border": "#c8e1ff",
+		"editorGroupHeader.tabsBackground": "#fafbfc",
+		"editorGroupHeader.tabsBorder": "#e1e4e8",
+		"editorIndentGuide.background": "#eeeeee",
+		"editorLineNumber.foreground": "#cccccc",
+		"focusBorder": "#fafbfc",
+		"inputOption.activeBorder": "#e36209",
+		"scrollbar.shadow": "#00000000",
+		"sideBar.background": "#fafbfc",
+		"sideBar.border": "#e1e4e8",
+		"sideBar.foreground": "#586069",
+		"sideBarSectionHeader.background": "#f1f2f3",
+		"sideBarSectionHeader.foreground": "#24292e",
+		"sideBarTitle.foreground": "#24292e",
+		"statusBar.background": "#fafbfc",
+		"statusBar.border": "#e1e4e8",
+		"statusBar.debuggingBackground": "#fafbfc",
+		"statusBar.debuggingForeground": "#24292e",
+		"statusBar.foreground": "#24292e",
+		"statusBar.noFolderBackground": "#fafbfc",
+		"statusBar.noFolderForeground": "#24292e",
+		"tab.activeBackground": "#ffffff",
+		"tab.activeBorder": "#e36209",
+		"tab.border": "#e1e4e8",
+		"tab.inactiveBackground": "#fafbfc",
+		"tab.inactiveForeground": "#586069",
+		"titleBar.activeBackground": "#fafbfc",
+		"titleBar.border": "#e1e4e8",
+	},
+	"tokenColors": [
+		// Generic Language
+		{
+			"scope": [
+				"keyword.operator",
+			],
+			"settings": {
+				"foreground": "#24292e",
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"keyword.operator.assignment",
+				"keyword.operator.comparison",
+				"storage.type.class",
+				"storage.type.struct",
+				"storage.type.enum",
+				"storage.type.modifier.access.control",
+				"storage.modifier",
+			],
+			"settings": {
+				"foreground": "#d73a49",
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function",
+			],
+			"settings": {
+				"foreground": "#6f42c1",
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"keyword.other.unit.suffix",
+				"keyword.other.unit.hexadecimal",
+			],
+			"settings": {
+				"foreground": "#005cc5",
+			}
+		},
+		{
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#037a60",
+			}
+		},
+		{
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#6a737d",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.directive"
+			],
+			"settings": {
+				"foreground": "#7f8d03",
+			}
+		},
+
+		// C++
+		{
+			"scope": [
+				"keyword.other.operator.overload.cpp",
+				"entity.name.function.call.initializer.cpp",
+				"storage.modifier.reference.cpp",
+				"storage.modifier.pointer.cpp",
+			],
+			"settings": {
+				"foreground": "#24292e",
+			}
+		},
+		{
+			"scope": [
+				"storage.type.primitive.cpp",
+				"storage.type.built-in.cpp"
+			],
+			"settings": {
+				"foreground": "#d73a49",
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.preprocessor.cpp",
+			],
+			"settings": {
+				"foreground": "#a80292",
+			}
+		},
+		{
+			"scope": [
+				"variable.other.enummember.cpp"
+			],
+			"settings": {
+				"foreground": "#005cc5",
+			}
+		},
+
+		// Rust
+		{
+			"scope": [
+				"storage.modifier.visibility.rust",
+				"storage.type.rust",
+				"storage.type.core.rust"
+			],
+			"settings": {
+				"foreground": "#d73a49",
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier.mut.rust",
+			],
+			"settings": {
+				"foreground": "#a80292",
+			}
+		},
+		{
+			"scope": [
+				"support.constant.core.rust"
+			],
+			"settings": {
+				"foreground": "#005cc5",
+			}
+		},
+
+		// TypeScript
+		{
+			"scope": [
+				"storage.type.function.ts",
+				"punctuation.separator.key-value.ts",
+				"keyword.operator.type.annotation.ts",
+				"storage.type.ts",
+				"storage.modifier.ts",
+			],
+			"settings": {
+				"foreground": "#d73a49",
+			}
+		},
+
+		// Python
+		{
+			"scope": [
+				"storage.type.function.python",
+			],
+			"settings": {
+				"foreground": "#d73a49",
+			}
+		},
+		{
+			"scope": [
+				"meta.function-call.generic.python",
+				"support.function.builtin.python",
+			],
+			"settings": {
+				"foreground": "#6f42c1",
+			}
+		},
+		{
+			"scope": [
+				"storage.type.function.lambda.python",
+			],
+			"settings": {
+				"foreground": "#a80292",
+			}
+		},
+	]
+}

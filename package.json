@@ -1,0 +1,22 @@
+{
+    "name": "github-air",
+    "displayName": "GitHub Air",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "GitHub Air",
+                "uiTheme": "vs",
+                "path": "./themes/GitHub Air-color-theme.json"
+            }
+        ]
+    },
+    "publisher": "jheruty"
+}
