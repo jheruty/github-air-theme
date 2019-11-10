@@ -55,6 +55,7 @@
 				"storage.type.class",
 				"storage.type.struct",
 				"storage.type.enum",
+				"storage.type.interface",
 				"storage.type.modifier.access.control",
 				"storage.modifier",
 			],
@@ -177,6 +178,14 @@
 			],
 			"settings": {
 				"foreground": "#005cc5",
+			}
+		},
+		{
+			"scope": [
+				"entity.name.lifetime.rust"
+			],
+			"settings": {
+				"foreground": "#7f8d03",
 			}
 		},
 
