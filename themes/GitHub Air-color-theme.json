@@ -20,21 +20,13 @@
 		"sideBar.background": "#fafbfc",
 		"sideBar.border": "#e1e4e8",
 		"sideBar.foreground": "#586069",
-		"sideBarSectionHeader.background": "#f1f2f3",
-		"sideBarSectionHeader.foreground": "#24292e",
-		"sideBarTitle.foreground": "#24292e",
-		"statusBar.background": "#fafbfc",
-		"statusBar.border": "#e1e4e8",
+		"statusBar.background": "#d1d1d1",
+		"statusBar.border": "#dddcdc",
 		"statusBar.debuggingBackground": "#fafbfc",
 		"statusBar.debuggingForeground": "#24292e",
 		"statusBar.foreground": "#24292e",
 		"statusBar.noFolderBackground": "#fafbfc",
 		"statusBar.noFolderForeground": "#24292e",
-		"tab.activeBackground": "#ffffff",
-		"tab.activeBorder": "#e36209",
-		"tab.border": "#e1e4e8",
-		"tab.inactiveBackground": "#fafbfc",
-		"tab.inactiveForeground": "#586069",
 		"titleBar.activeBackground": "#fafbfc",
 		"titleBar.border": "#e1e4e8",
 	},
@@ -46,6 +38,15 @@
 			],
 			"settings": {
 				"foreground": "#24292e",
+			}
+		},
+		{
+			"scope": [
+				"meta.attribute",
+			],
+			"settings": {
+				"foreground": "#215085",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -75,8 +76,7 @@
 			"scope": [
 				"constant.numeric",
 				"constant.language",
-				"keyword.other.unit.suffix",
-				"keyword.other.unit.hexadecimal",
+				"keyword.other.unit",
 			],
 			"settings": {
 				"foreground": "#005cc5",
@@ -159,6 +159,14 @@
 		},
 		{
 			"scope": [
+				"support.function.std.rust",
+			],
+			"settings": {
+				"foreground": "#6f42c1",
+			}
+		},
+		{
+			"scope": [
 				"storage.modifier.mut.rust",
 			],
 			"settings": {
@@ -214,5 +222,164 @@
 				"foreground": "#a80292",
 			}
 		},
+
+		//JSON
+		{
+			"scope": [
+				"support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#6f42c1",
+			}
+		},
+
+		// HTML
+		{
+			"scope": [
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"entity.name.tag.html"
+			],
+			"settings": {
+				"foreground": "#d73a49",
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#005cc5",
+				"fontStyle": "italic"
+			}
+		},		
+		{
+			"scope": [
+				"string.quoted.double.html"
+			],
+			"settings": {
+				"foreground": "#037a60",
+				"fontStyle": "" // Clear italic style.
+			}
+		},
+
+		// CSS
+		{
+			"scope": [
+				"entity.other.attribute-name.class.css",
+				"entity.name.tag.css",
+			],
+			"settings": {
+				"foreground": "#d73a49",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"support.type.property-name.css",
+				"support.type.vendored.property-name.css"
+			],
+			"settings": {
+				"foreground": "#6f42c1",
+			}
+		},
+		{
+			"scope": [
+				"meta.property-value.css",
+			],
+			"settings": {
+				"foreground": "#005cc5",
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
+				"meta.function.color.css",
+				"support.function.url.css",
+				"support.function.misc.css",
+			],
+			"settings": {
+				"foreground": "#a80292",
+			}
+		},
+
+		// // HTML
+		// {
+		// 	"scope": [
+		// 		"punctuation.definition.tag.begin.html",
+		// 		"punctuation.definition.tag.end.html",
+		// 		"entity.name.tag.html"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#d73a49",
+		// 	}
+		// },
+		// {
+		// 	"scope": [
+		// 		"entity.other.attribute-name.html"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#005cc5",
+		// 		"fontStyle": "italic"
+		// 	}
+		// },		
+		// {
+		// 	"scope": [
+		// 		"string.quoted.double.html"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#037a60",
+		// 		"fontStyle": "" // Clear italic style.
+		// 	}
+		// },
+
+		// // CSS
+		// {
+		// 	"scope": [
+		// 		"meta.function.color.css",
+		// 		"support.function.url.css",
+		// 		"support.function.misc.css",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#d73a49",
+		// 	}
+		// },
+		// {
+		// 	"scope": [
+		// 		"meta.property-value.css",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#005cc5",
+		// 	}
+		// },
+		// {
+		// 	"scope": [
+		// 		"entity.other.attribute-name.class.css",
+		// 		"entity.name.tag.css",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#6f42c1",
+		// 		"fontStyle": "italic"
+		// 	}
+		// },
+		// {
+		// 	"scope": [
+		// 		"support.type.property-name.css",
+		// 		"support.type.vendored.property-name.css",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#24292e",
+		// 	}
+		// },
+		// {
+		// 	"scope": [
+		// 		"entity.other.attribute-name.pseudo-class.css",
+		// 		"entity.other.attribute-name.pseudo-element.css",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#a80292",
+		// 	}
+		// },
 	]
 }
