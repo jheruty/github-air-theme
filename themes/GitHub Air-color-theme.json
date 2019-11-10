@@ -156,14 +156,6 @@
 		},
 		{
 			"scope": [
-				"keyword.other.rust",
-			],
-			"settings": {
-				"foreground": "#405479",
-			}
-		},
-		{
-			"scope": [
 				"support.function.std.rust",
 				"support.function.log.rust",
 			],
@@ -192,18 +184,11 @@
 		{
 			"scope": [
 				"storage.type.function.ts",
+				"storage.modifier.ts",
+				"storage.type.ts",
 			],
 			"settings": {
 				"foreground": "#d73a49",
-			}
-		},
-		{
-			"scope": [
-				"storage.type.ts",
-				"storage.modifier.ts",
-			],
-			"settings": {
-				"foreground": "#405479",
 			}
 		},
 		{
@@ -230,18 +215,11 @@
 		{
 			"scope": [
 				"storage.type.function.js",
+				"storage.modifier.js",
+				"storage.type.js",
 			],
 			"settings": {
 				"foreground": "#d73a49",
-			}
-		},
-		{
-			"scope": [
-				"storage.type.js",
-				"storage.modifier.js",
-			],
-			"settings": {
-				"foreground": "#405479",
 			}
 		},
 		{
