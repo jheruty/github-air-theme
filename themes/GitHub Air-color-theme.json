@@ -52,8 +52,6 @@
 		{
 			"scope": [
 				"keyword",
-				"keyword.operator.assignment",
-				"keyword.operator.comparison",
 				"storage.type.class",
 				"storage.type.struct",
 				"storage.type.enum",
@@ -124,10 +122,12 @@
 		{
 			"scope": [
 				"storage.type.primitive.cpp",
-				"storage.type.built-in.cpp"
+				"storage.type.built-in.cpp",
+				"storage.modifier.specifier.const.cpp",
+				"storage.modifier.specifier.static.cpp"
 			],
 			"settings": {
-				"foreground": "#d73a49",
+				"foreground": "#405479",
 			}
 		},
 		{
@@ -152,10 +152,17 @@
 			"scope": [
 				"storage.modifier.visibility.rust",
 				"storage.type.rust",
-				"storage.type.core.rust"
 			],
 			"settings": {
 				"foreground": "#d73a49",
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.rust",
+			],
+			"settings": {
+				"foreground": "#405479",
 			}
 		},
 		{
@@ -188,13 +195,18 @@
 		{
 			"scope": [
 				"storage.type.function.ts",
-				"punctuation.separator.key-value.ts",
-				"keyword.operator.type.annotation.ts",
+			],
+			"settings": {
+				"foreground": "#d73a49",
+			}
+		},
+		{
+			"scope": [
 				"storage.type.ts",
 				"storage.modifier.ts",
 			],
 			"settings": {
-				"foreground": "#d73a49",
+				"foreground": "#405479",
 			}
 		},
 		{
@@ -221,13 +233,18 @@
 		{
 			"scope": [
 				"storage.type.function.js",
-				"punctuation.separator.key-value.js",
-				"keyword.operator.type.annotation.js",
+			],
+			"settings": {
+				"foreground": "#d73a49",
+			}
+		},
+		{
+			"scope": [
 				"storage.type.js",
 				"storage.modifier.js",
 			],
 			"settings": {
-				"foreground": "#d73a49",
+				"foreground": "#405479",
 			}
 		},
 		{
@@ -253,6 +270,7 @@
 		// Python
 		{
 			"scope": [
+				"keyword.operator.logical.python",
 				"storage.type.function.python",
 			],
 			"settings": {
@@ -280,7 +298,7 @@
 		//JSON
 		{
 			"scope": [
-				"support.type.property-name"
+				"support.type.property-name.json",
 			],
 			"settings": {
 				"foreground": "#6f42c1",
