@@ -101,7 +101,8 @@
 		},
 		{
 			"scope": [
-				"keyword.control.directive"
+				"keyword.control.directive",
+				"meta.decorator",
 			],
 			"settings": {
 				"foreground": "#7f8d03",
@@ -160,6 +161,7 @@
 		{
 			"scope": [
 				"support.function.std.rust",
+				"support.function.log.rust",
 			],
 			"settings": {
 				"foreground": "#6f42c1",
@@ -193,6 +195,58 @@
 			],
 			"settings": {
 				"foreground": "#d73a49",
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.tag.begin.tsx",
+				"punctuation.definition.tag.end.tsx",
+				"entity.name.tag.tsx",
+			],
+			"settings": {
+				"foreground": "#a80292",
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.tsx"
+			],
+			"settings": {
+				"foreground": "#005cc5",
+				"fontStyle": "italic",
+			}
+		},
+
+		// JavaScript
+		{
+			"scope": [
+				"storage.type.function.js",
+				"punctuation.separator.key-value.js",
+				"keyword.operator.type.annotation.js",
+				"storage.type.js",
+				"storage.modifier.js",
+			],
+			"settings": {
+				"foreground": "#d73a49",
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.tag.begin.js",
+				"punctuation.definition.tag.end.js",
+				"entity.name.tag.js",
+			],
+			"settings": {
+				"foreground": "#a80292",
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.js"
+			],
+			"settings": {
+				"foreground": "#005cc5",
+				"fontStyle": "italic",
 			}
 		},
 
@@ -249,7 +303,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#6f42c1",
+				"foreground": "#005cc5",
 				"fontStyle": "italic"
 			}
 		},		
@@ -266,12 +320,21 @@
 		// CSS
 		{
 			"scope": [
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
+			],
+			"settings": {
+				"foreground": "#24292e",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
 				"entity.other.attribute-name.class.css",
 				"entity.name.tag.css",
 			],
 			"settings": {
 				"foreground": "#d73a49",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -293,93 +356,16 @@
 		},
 		{
 			"scope": [
-				"entity.other.attribute-name.pseudo-class.css",
-				"entity.other.attribute-name.pseudo-element.css",
 				"meta.function.color.css",
 				"support.function.url.css",
 				"support.function.misc.css",
+				"support.function.gradient.css",
+				"support.function.transform.css",
+				
 			],
 			"settings": {
 				"foreground": "#a80292",
 			}
 		},
-
-		// // HTML
-		// {
-		// 	"scope": [
-		// 		"punctuation.definition.tag.begin.html",
-		// 		"punctuation.definition.tag.end.html",
-		// 		"entity.name.tag.html"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#d73a49",
-		// 	}
-		// },
-		// {
-		// 	"scope": [
-		// 		"entity.other.attribute-name.html"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#005cc5",
-		// 		"fontStyle": "italic"
-		// 	}
-		// },		
-		// {
-		// 	"scope": [
-		// 		"string.quoted.double.html"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#037a60",
-		// 		"fontStyle": "" // Clear italic style.
-		// 	}
-		// },
-
-		// // CSS
-		// {
-		// 	"scope": [
-		// 		"meta.function.color.css",
-		// 		"support.function.url.css",
-		// 		"support.function.misc.css",
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#d73a49",
-		// 	}
-		// },
-		// {
-		// 	"scope": [
-		// 		"meta.property-value.css",
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#005cc5",
-		// 	}
-		// },
-		// {
-		// 	"scope": [
-		// 		"entity.other.attribute-name.class.css",
-		// 		"entity.name.tag.css",
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#6f42c1",
-		// 		"fontStyle": "italic"
-		// 	}
-		// },
-		// {
-		// 	"scope": [
-		// 		"support.type.property-name.css",
-		// 		"support.type.vendored.property-name.css",
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#24292e",
-		// 	}
-		// },
-		// {
-		// 	"scope": [
-		// 		"entity.other.attribute-name.pseudo-class.css",
-		// 		"entity.other.attribute-name.pseudo-element.css",
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#a80292",
-		// 	}
-		// },
 	]
 }
