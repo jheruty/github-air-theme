@@ -4,7 +4,7 @@
     "description": "",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.39.0"
+        "vscode": "^1.38.0"
     },
     "categories": [
         "Themes"
@@ -18,5 +18,8 @@
             }
         ]
     },
-    "publisher": "jheruty"
+    "publisher": "jheruty",
+    "dependencies": {
+        "vsce": "^1.69.0"
+    }
 }
