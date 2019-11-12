@@ -19,7 +19,5 @@
         ]
     },
     "publisher": "jheruty",
-    "dependencies": {
-        "vsce": "^1.69.0"
-    }
+    "dependencies": {}
 }

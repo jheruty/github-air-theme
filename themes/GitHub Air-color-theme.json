@@ -129,6 +129,18 @@
 			}
 		},
 		{
+			// Muted highlight for C++ storage types, like "const int" or "static uint32_t".
+			"scope": [
+				"storage.type.primitive.cpp",
+				"storage.type.built-in.cpp",
+				"storage.modifier.specifier.const.cpp",
+				"storage.modifier.specifier.static.cpp",
+			],
+			"settings": {
+				"foreground": "#405479",
+			}
+		},
+		{
 			"scope": [
 				"entity.name.function.preprocessor.cpp",
 			],
