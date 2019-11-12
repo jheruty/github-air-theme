@@ -133,6 +133,7 @@
 			"scope": [
 				"storage.type.primitive.cpp",
 				"storage.type.built-in.cpp",
+				"storage.type.cpp",
 				"storage.modifier.specifier.const.cpp",
 				"storage.modifier.specifier.static.cpp",
 			],
